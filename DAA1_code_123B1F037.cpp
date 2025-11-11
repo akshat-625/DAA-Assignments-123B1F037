@@ -64,7 +64,7 @@ void printOrders(const vector<Order> &orders) {
 
 int main() {
     int n;
-    cout << "Enter number of customer orders:7" << endl;
+    cout << "Enter number of customer orders: " << endl;
     cin >> n;
 
     vector<Order> orders(n);
@@ -118,5 +118,6 @@ Order ID: 107, Timestamp: 4000
 Order ID: 101, Timestamp: 5000
 Order ID: 105, Timestamp: 6000
 Order ID: 103, Timestamp: 7000
+
 
 */
